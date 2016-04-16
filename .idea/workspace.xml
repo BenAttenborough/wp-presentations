@@ -2,6 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d27b0da-8602-4731-85e1-8d144f3fcd35" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/print/paper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/print/pdf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/beige.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/blood.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/league.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/moon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/night.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/serif.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/sky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/solarized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/beige.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/black.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/blood.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/league.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/moon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/night.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/serif.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/simple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/sky.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/solarized.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/source/white.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/template/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/template/settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/template/theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/css/theme/white.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/add-new-plugin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/any-questions.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/blackboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/codecanyon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/fibre.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/intro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugging-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-details-changelog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-details-faq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-details-install.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-details-reviews.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-details-screenshots.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-info.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-install.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-screen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-update.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-upload.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/plugin-where-installed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/question.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/too-many-plugs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/wp-cli-www.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/img/wp-cli.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/js/reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/css/zenburn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/league-gothic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/league-gothic/league-gothic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/league-gothic/league-gothic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/league-gothic/league-gothic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/js/classList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/js/head.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/lib/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/highlight/highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/markdown/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/markdown/example.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/markdown/marked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/math/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/multiplex/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/multiplex/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/multiplex/master.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/notes-server/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/notes-server/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/notes-server/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/notes/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/notes/notes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/print-pdf/print-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/search/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/plugin/zoom-js/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/assets/image1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/assets/image2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/barebones.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/embedded-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/math.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/slide-backgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/examples/slide-transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/qunit-1.12.0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/qunit-1.12.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-markdown-element-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-markdown-element-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-markdown-slide-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-markdown-slide-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-pdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/plugins/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/print/paper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/print/pdf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/beige.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/blood.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/league.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/moon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/night.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/serif.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/sky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/solarized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/beige.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/black.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/blood.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/league.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/moon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/night.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/serif.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/simple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/sky.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/solarized.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/source/white.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/template/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/template/settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/template/theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/css/theme/white.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/Contrast.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/Contrast2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/Eccentricities.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/Serif-sans-serif.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/Type-terms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/add-new-plugin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/any-questions.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/blackboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/codecanyon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/crumpled-paper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/fibre.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/font-pairing-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/font-pairing-01a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/intro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugging-in.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-details-changelog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-details-faq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-details-install.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-details-reviews.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-details-screenshots.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-info.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-install.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-screen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-update.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-upload.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/plugin-where-installed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/question.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/too-many-plugs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/wp-cli-www.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/wp-cli.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/img/x-heights.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/js/reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/css/zenburn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/league-gothic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/league-gothic/league-gothic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/league-gothic/league-gothic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/league-gothic/league-gothic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/league-gothic/league-gothic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/font/source-sans-pro/source-sans-pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/js/classList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/js/head.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/lib/js/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/highlight/highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/markdown/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/markdown/example.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/markdown/marked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/math/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/multiplex/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/multiplex/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/multiplex/master.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/notes-server/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/notes-server/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/notes-server/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/notes/notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/notes/notes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/print-pdf/print-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/search/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/plugin/zoom-js/zoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/res/Serif-sans-serif.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/res/background-template.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/res/crumpled-paper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/res/type-catergorisation.indd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/assets/image1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/assets/image2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/barebones.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/embedded-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/math.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/slide-backgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/examples/slide-transitions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/qunit-1.12.0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/qunit-1.12.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-markdown-element-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-markdown-element-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-markdown-slide-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-markdown-slide-attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-markdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-pdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test-pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/presentations/typography/test/test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="www.wp-presentations.dev.iws" />
@@ -27,8 +283,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58635706">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.69521046">
+              <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -170,17 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentations/plugins/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.5">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58635706">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.69521046">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding />
         </state>
       </provider>

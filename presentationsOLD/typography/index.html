@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Web typography</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h1>Web Typography</h1>
+					<h3>A brief guide to type on the web</h3>
+					<p>
+						<small>Created by <a href="http://www.benattenborough.org.uk/">Ben Attenborough</a> / <a href="https://twitter.com/WebDesignerBen">@WebDesignerBen</a></small>
+					</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Technical considerations</h3>
+					<p>Native fonts Vs Self hosted fonts Vs Remote hosted fonts</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Native fonts</h3>
+					<p>Native fonts live on the user&rsquo;s system. Since they are already on the user&rsquo;s computer they will display instantly.
+						Be careful though, as fonts available on one system may not be available on another.
+						For example the font &ldquo;Helvetica&rdquo; is available on OSX (Macs), but not Windows (PCs)</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Native fonts</h3>
+					<p>Systems default to one of five generic categories</p>
+					<ul>
+						<li>serif</li>
+						<li>sans-serif</li>
+						<li>monospace</li>
+						<li>cursive</li>
+						<li>fantasy</li>
+					</ul>
+					<p>You can check which fonts are available on each operating system at: http://www.cssfontstack.com/</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Font stacking</h3>
+					<p>Because all systems have default fonts for all these categories we should specify them as backup fonts in our &ldquo;font stack&rdquo;.</p>
+					<p>A font stack specifies a list of fonts to use with each subesquent font being a fall back if the previous font was not found</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Font stacking</h3>
+					<p>For example:</p>
+					<code>font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;</code>
+					<p>Is an example of a font stack for Helvetica Neue. This typeface in available on modern Macs but may not be available for older ones.
+						If the typeface isn't found we default to Helvetica, then Arial (the Windows equvilent) and finally sans-serif.
+						Check <a href="http://www.cssfontstack.com/">http://www.cssfontstack.com/</a> for example font stacks.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Font stacking</h3>
+					<p>This is important because when we use our own fonts we still need a font-stack so that the user still gets a useable typeface if ours fails to be delivered for whatever reason.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Self hosted fonts</h3>
+					<p>These are fonts that we install on our server and the user&rsquo;s browser downloads when they visit the page. 
+						We generally call them using the <code>@font-face</code> code in our css</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Self hosted fonts</h3>
+					<p>Fonts come in a variety of formats:</p>
+					<ul>
+						<li>woff2 - Cutting-edge Web Open Font Format</li>
+						<li>woff - Web Open Font Format</li>
+						<li>ttf - True Type Font</li>
+						<li>eot - Embedded OpenType, used on Windows</li>
+						<li>svg - Scalable Vector Graphic</li>
+					</ul>
+					<p>We mostly want to use woff2 and woff, but may need to provide ttf, eot and svg as fallbacks for very old browsers
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Examples of use</h3>
+					<p style="text-align:left"><code>@font-face {</code></p>
+  					<p style="text-align:left"><code>&nbsp;	font-family: 'MyWebFont';</code></p>
+  					<p style="text-align:left"><code>&nbsp;	src:  url('myfont.woff2') format('woff2'),</code></p>
+        			<p style="text-align:left"><code>&nbsp;	url('myfont.woff') format('woff');</code></p>
+					<p style="text-align:left"><code>}</code></p>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Examples of use</h3>
+					<p style="text-align:left"><code>body {</code></p>
+  					<p style="text-align:left"><code>&nbsp;	  font-family: 'MyWebFont', Fallback, sans-serif;</code></p>
+					<p style="text-align:left"><code>}</code></p>
+				</section>
+
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Self hosted fonts - Pros and Cons</h3>
+					<p>Self hosted gives you more control over the fonts you use</p>
+					<p>More reliable delivery, since you are relying on your server and not someone elses</p>
+					<p>Get to chose from all the web fonts available in the world</p>
+					<p>Expensive</p>
+					<p>Calls for a commitment</p>
+					<p>Fiddly to setup and get working - requires downloading files, uploading them to your server</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Remotely hosted fonts</h3>
+					<p>An alternative to buying fonts and installing them on your system is to use a remote service. Options include:</p>
+					<ul>
+						<li>Google Fonts</li>
+						<li>Adobe Typekit</li>
+					</ul>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Remotely hosted fonts</h3>
+					<p>Instead of calling the font files from your own server these are called from a seperate service.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Examples of use</h3>
+  					<p style="text-align:left">Add to head of your document</p>
+					<p style="text-align:left"><code>&lt;link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;</code></p>
+  					<p style="text-align:left">And call it in your CSS thus:</p>
+					<p style="text-align:left"><code>font-family: 'Open Sans', sans-serif;</code></p>
+				</section>
+
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Remotely hosted fonts - Pros and Cons</h3>
+					<p>Less control over the fonts</p>
+					<p>Relying on another server - font stack even more important</p>
+					<p>More limited choices</p>
+					<p>Can be free. Subscription services cost money - but gives you the chance to play with fonts more</p>
+					<p>...therefore no commitment</p>
+					<p>Quick to set up</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Anatomy of type</h3>
+					<p>Baseline</p>
+					<p>Cap-height</p>
+					<p>X-height</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/type-terms.jpg">
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Types of font</h3>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<img src="img/Serif-sans-serif.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Context</h3>
+					<p>Type for the moment</p>
+					<p>Type for long-form reading</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Longform type</h3>
+					<p>Eccentrities amplified when repeated e.g. Bree Vs Calluna</p>
+					<p>Good x-height: 60-70% of cap height</p>
+					<p>Low to medium contrast</p>
+					<p>Distinct letterforms</p>
+					<p>Full punctuation / extended language as required</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Eccentricity examples</h3>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section>
+					<img src="img/Eccentricities.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>X-height examples</h3>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section>
+					<img src="img/x-heights.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Low to medium contrast</h3>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section>
+					<img src="img/contrast.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+								<section>
+					<img src="img/contrast2.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Pairing fonts</h3>
+					<p>Contrast Vs Harmony</p>
+					<p>Pairing serifs with sans-serifs to create contrast</p>
+					<p>You might consider using just one typeface and using scale, colour or weight to indicate heirarchy</p>
+					<p>If you do choose to pair fonts there are some considerations</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section>
+					<img src="img/font-pairing-01a.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+								<section>
+					<img src="img/font-pairing-01.jpg" style="border: none; box-shadow: none"></img>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Pairing fonts</h3>
+					<p>You want enough contrast to indicate a deliberate difference between typefaces</p>
+					<p>Pairing two serifs with each other is difficult because the different serif styles tend to clash</p>
+					<p>Therefore it's common practice to pair serif body text with sans-serif headlines or vice-versa</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Establishing hierarchy</h3>
+					<p>The most obvious way to indicate heading and subheading priority is through scale</p>
+					<p>Simply put, the larger the font the more important it is</p>
+					<p>But there are other ways to establish hierarchy:</p>
+					<p>Weight</p>
+					<p>colour</p>
+					<p>Style</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>A note on sizing fonts</h3>
+					<p>You can style fonts with by simply specifying the size in pixels</p>
+					<p>BUT: You can also size fonts using ems and rems</p>
+					<p>An Em is a relative sizing method. 1em is set by the browser to 16px.</p>
+					<p>You can then use this to set other typographic elements relative to an em.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>A note on sizing fonts</h3>
+					<p>So we could set our p element to 1.2em then our h1 element to 2em</p>
+					<p>The advatnage of doing this is that if we ever want to change the size of our p element font the other elements will scale appropriately</p>
+					<p>This is particularly useful because not all typefaces are the same size. Also we may want to tinker with the text size on different displays</p>
+					<aside class="notes">
+					</aside>
+				</section>
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Setting type</h3>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Typographic Scale</h3>
+					<p>There are two schools of thought about how to size typographic elements in relation to one another</p>
+					<p>The first school is to do everything by eye. So for example using 16px as a base double the size for a sub head and double again for a headline size and adjust it until it looks right.</p>
+					<p>The other school suggests using a typographic scale to provide a mathematical base for the scaling of type.</p>
+					<p>You can find examples of these at: <a href="http://type-scale.com/">type-scale.com</a></p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Measure and line height</h3>
+					<p>An old rule from print typography is that the measure (line length) should be between 45 and 75 charcters, so adjust your text boxes to accomodate this length. Ideally aim for something in the mid 60s.</p>
+					<p>The line height is the distance between lines of text. There is no magic number as to what this should be because it depends on the fonts descenders, ascenders and things like the font weight.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Measure and line height</h3>
+					<p>Generally the longer the line length the more line height you need to make it more comfortable for the eye to move between lines of text.</p>
+					<p>Neglecting measure is super common on websites, but it's easy to fix.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Justification</h3>
+					<p>In products like Adobe InDesign there are a host of options to handle hyphenation which don't exist in css.</p>
+					<p>Because of this is often best to avoid hyphenating text on the web.</p>
+					<p>Therefore, unless we have a generous measure a left justified / ragged right setting is usually best.</p>
+					<p>This avoids rivers in our text.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<section data-background="img/crumpled-paper.jpg" class="black-text">
+					<h3>Responsive design</h3>
+					<p>On a desktop people are usually reading text from about an arm's length away.</p>
+					<p>On a phone or tablet, however we generally read from a closer position.</p>
+					<p>Therefore we can reduce the font size a bit to compensate. This has the added advantage of increasing our measure slightly.</p>
+					<p>The measure will always bit a bit short on a mobile, but again we can compenstate by decreasing the line height a bit.</p>
+					<aside class="notes">
+					</aside>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
